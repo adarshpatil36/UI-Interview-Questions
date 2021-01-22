@@ -1,6 +1,6 @@
 # UI Interview Questions
 
-# React<br/>
+## React<br/>
 - Code Splitting<br/>
 - New features of React<br/>
 - Will component did mount  be called on every rerender<br/>
@@ -16,7 +16,7 @@
 -  Make redux actions async without using Thunk and Saga.<br/>
 <br/>
 
-# Javascript
+## Javascript
 - What are Interceptors (VIMP Question)<br/>
 - Explain various Design Patterns and which patterns are you using in your project and why<br/>
 - Controlled vs uncontrolled components<br/>
