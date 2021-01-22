@@ -1,4 +1,4 @@
-# UI Interview Questions<br/>
+# UI Interview Questions
 
 # React<br/>
 - Code Splitting<br/>
