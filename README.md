@@ -1,9 +1,9 @@
 # UI-Interview-Questions<br/>
 
 # React<br/>
-Code Splitting<br/>
-New features of React<br/>
-Will component did mount  be called on every rerender<br/>
+- Code Splitting<br/>
+- New features of React<br/>
+-Will component did mount  be called on every rerender<br/>
 Alternative for redux<br/>
 -> Mobex<br/>
 Drawback of redux<br/>
@@ -71,9 +71,9 @@ Give examples of css combinators<br/>
 <br/>
 <br/>
 # HTML<br/>
-Markup : *New tags introduced in html5<br/>
-*What will get rendered if I place footer and then header tag<br/>
-*(header and then footer or vice versa)<br/>
+New tags introduced in html5<br/>
+What will get rendered if I place footer and then header tag<br/>
+(header and then footer or vice versa)<br/>
 What do you mean by semantic tags<br/>
 Name some of the semantic tags<br/>
 Different types of storages in html5<br/>
