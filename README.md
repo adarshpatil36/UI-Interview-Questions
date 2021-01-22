@@ -14,8 +14,7 @@
 - -> Error Boundaries to handle error at global level and to handle errors at component level we have error handling lifecycle methods<br/><br/>
 -  Difference between useContext & redux.<br/>
 -  Make redux actions async without using Thunk and Saga.<br/>
-- <br/>
-- <br/>
+<br/>
 # Javascript<br/>
 - What are Interceptors (VIMP Question)<br/>
 - Explain various Design Patterns and which patterns are you using in your project and why<br/>
@@ -41,10 +40,7 @@
 -  What are closures and give an example of any inbuilt function in JS which uses closures concept.<br/>
 -  Achieving spread operator functionality without using spread operator.<br/>
 -  Axios vs fetch<br/>
-- <br/>
-- <br/>
-- <br/>
-- <br/>
+<br/>
 # CSS<br/>
 - Different types of positions and display<br/>
 - -> Sticky: Fixed + Relative<br/>
@@ -67,9 +63,7 @@
 - What are media queries and may ask you to write one of them<br/>
 - Visibility hidden and display none difference<br/>
 - Give examples of css combinators<br/>
-- <br/>
-- <br/>
-- <br/>
+<br/>
 # HTML<br/>
 - New tags introduced in html5<br/>
 - What will get rendered if I place footer and then header tag<br/>
