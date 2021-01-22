@@ -1,7 +1,7 @@
 # UI-Interview-Questions
 
-# *React
-Code Splitting
+# React
+Code Splitting<br/>
 New features of React
 Will component did mount  be called on every rerender
 Alternative for redux
