@@ -7,13 +7,38 @@
 - Alternative for redux<br/>
 - -> Mobex<br/>
 - Drawback of redux<br/>
+- What is react uni-directional data flow?<br/>
+- It is possible to make bi-directional flow in react ?<br/>
 - Explain context overview along with its proper use<br/>
-- Actions are synchronous
+- Actions are synchronous<br/>
 - Why do we need to return a new state from the reducer instead of changing the existing one.<br/>
 - What are Error Boundaries<br/>
 - -> Error Boundaries to handle error at global level and to handle errors at component level we have error handling lifecycle methods<br/><br/>
+- And what is component did catch?<br/>
 -  Difference between useContext & redux.<br/>
 -  Make redux actions async without using Thunk and Saga.<br/>
+- Life cycle methods.<br/>
+- Name some of the patterns you react usages?<br/>
+- Can we update state without using setstate?<br/>
+- How can we ensure that the state updated in setstate is previous state only?<br/>
+- Does setstate ensures synchronous update of state?<br/>
+- How to use a call back inside setstate?<br/>
+- What are react hooks useEffect(),useState(),useRef(),useContext(), useSelectors?<br/>
+- How to implement inversion of control in react?<br/>
+- What are controlled inputs and what are uncontrolled inputs?<br/>
+- What is reconciliation in react?<br/>
+- How to share data across the components using context api and also using render props?<br/>
+- What are prop types in react?<br/>
+- How can you pass props from child to parent component?<br/>
+- How to use createRef() in react?<br/>
+- What is a pure function?<br/>
+- What is an HOC (higer order component)? Give an example of any HOC you have
+implemented in your project?<br/>
+- What is lazy loading in react?<br/>
+- What all can be done inside the render() method?<br/>
+- Why there is a different package called as react dom?<br/>
+- What is a middleware?<br/>
+- Tell me what is redux thunk and why there is a need to use thunk or any middleware?<br/>
 <br/>
 
 ### JavaScript
