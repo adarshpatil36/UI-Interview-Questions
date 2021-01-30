@@ -86,15 +86,15 @@
 - What is accessibility and how will you achieve it<br/>
 
 ### Code Snippets<br/>
-```
-let name ="Helllo"
+
+-```let name ="Helllo"
 function myFunc(){
     let name ="Test"
     console.log(this.name) // undefined 
 }
 myFunc()
-
-var obj = {
+\```
+-```var obj = {
     name: "Google",
     getName: ()=>{
             console.log(this.name) // undefined
