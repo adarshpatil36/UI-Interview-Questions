@@ -84,3 +84,33 @@
 - Difference between PUT vs POST<br/>
 - Give examples of idempotent http methods and what does this idempotent mean<br/>
 - What is accessibility and how will you achieve it<br/>
+
+### Code Snippets<br/>
+
+let name ="Helllo"
+function myFunc(){
+    let name ="Test"
+    console.log(this.name) // undefined 
+}
+myFunc()
+
+var obj = {
+    name: "Google",
+    getName: ()=>{
+            console.log(this.name) // undefined
+    }
+}
+obj.getName()
+
+var obj = {
+    name: "Google",
+    getName: function(){
+            console.log(this.name) // Google
+    }
+}
+obj.getName()
+
+var obj = {}
+obj[{key:"name"}] = "Adarsh"
+obj[{key:"surname"}] = "Patil"
+console.log(obj[{key:"name"}]) // Patil
