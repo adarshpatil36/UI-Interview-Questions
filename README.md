@@ -95,6 +95,7 @@ function myFunc(){
 myFunc()
 ```
 <br/>
+
 ```
 var obj = {
     name: "Google",
