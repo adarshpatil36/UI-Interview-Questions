@@ -124,3 +124,49 @@ obj[{key:"name"}] = "Adarsh"
 obj[{key:"surname"}] = "Patil"
 console.log(obj[{key:"name"}]) // Patil
 ```
+<br/>
+
+```
+var arr = [10, 2, 30, 23, 32];
+console.log(typeof arr); // Object
+```
+<br/>
+
+```
+console.log(1<2<3);
+console.log(3>2>1);
+```
+<br/>
+
+```
+var a = 10;
+(function(){
+    console.log(a);
+    var a = 20;
+})();
+```
+<br/>
+
+```
+console.log(true + true);
+console.log(true + false);
+```
+<br/>
+
+```
+var a = {name: 'React', age:8}
+var b = {name: 'React', age:8}
+console.log(a==b)
+console.log(a===b)
+```
+<br/>
+
+```
+var a = {label: 'a'};
+var b = {label: 'b'};
+m[a] ='x';
+m[b] = 'y';
+```
+<br/>
+
+```
