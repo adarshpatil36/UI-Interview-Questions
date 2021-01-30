@@ -106,6 +106,7 @@ var obj = {
 obj.getName()
 ```
 <br/>
+
 ```
 var obj = {
     name: "Google",
@@ -116,6 +117,7 @@ var obj = {
 obj.getName()
 ```
 <br/>
+
 ```
 var obj = {}
 obj[{key:"name"}] = "Adarsh"
