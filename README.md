@@ -93,8 +93,8 @@ function myFunc(){
     console.log(this.name) // undefined 
 }
 myFunc()
-\```
--```var obj = {
+
+var obj = {
     name: "Google",
     getName: ()=>{
             console.log(this.name) // undefined
