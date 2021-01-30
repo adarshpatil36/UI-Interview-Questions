@@ -86,7 +86,7 @@
 - What is accessibility and how will you achieve it<br/>
 
 ### Code Snippets<br/>
-
+```
 let name ="Helllo"
 function myFunc(){
     let name ="Test"
@@ -114,3 +114,4 @@ var obj = {}
 obj[{key:"name"}] = "Adarsh"
 obj[{key:"surname"}] = "Patil"
 console.log(obj[{key:"name"}]) // Patil
+```
