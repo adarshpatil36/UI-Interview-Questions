@@ -170,3 +170,32 @@ m[b] = 'y';
 <br/>
 
 ```
+var obj1 = {a: 10};
+var obj2 = obj1;
+obj2.a = 90;
+console.log(obj1.a)
+```
+<br/>
+
+```
+var x = 10;
+(function(){
+delete x;
+return x;
+})();
+```
+<br/>
+
+```
+var arr = [1, 2, 3, 4, 6, 7];
+arr[10] = 99;
+delete arr[10];
+console.log(arr.length)
+```
+<br/>
+
+```
+(function(){
+var a = b = 3;
+})
+console.log(a);
