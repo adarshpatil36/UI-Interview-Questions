@@ -93,7 +93,9 @@ function myFunc(){
     console.log(this.name) // undefined 
 }
 myFunc()
-
+```
+<br/>
+```
 var obj = {
     name: "Google",
     getName: ()=>{
@@ -101,7 +103,9 @@ var obj = {
     }
 }
 obj.getName()
-
+```
+<br/>
+```
 var obj = {
     name: "Google",
     getName: function(){
@@ -109,7 +113,9 @@ var obj = {
     }
 }
 obj.getName()
-
+```
+<br/>
+```
 var obj = {}
 obj[{key:"name"}] = "Adarsh"
 obj[{key:"surname"}] = "Patil"
