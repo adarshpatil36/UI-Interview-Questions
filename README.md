@@ -112,7 +112,8 @@ implemented in your project?<br/>
 
 ### Code Snippets<br/>
 
-```let name ="Helllo"
+```
+let name ="Helllo"
 function myFunc(){
     let name ="Test"
     console.log(this.name) // undefined 
