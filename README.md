@@ -225,3 +225,17 @@ console.log(arr.length)
 var a = b = 3;
 })
 console.log(a);
+```
+<br/>
+
+```
+var name = "Adarsh"
+function outer(){
+    function inner(){
+        console.log(this.name) // Adarsh
+    }
+  inner();
+}
+outer();
+
+
