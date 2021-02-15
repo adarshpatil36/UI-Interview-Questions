@@ -237,5 +237,154 @@ function outer(){
   inner();
 }
 outer();
+```
+<br/>
 
+```
+['1', '7', '11'].map(parseInt) // [1,NaN,3]
+```
+<br/>
 
+```
+arr = [1,5,6,1,0,1];
+console.log(arr+99) // 1,5,6,1,0,199
+```
+<br/>
+
+```
+let obj ={}
+obj[[]] = 12
+obj[[[]]] = 80
+
+console.log(obj[[]],obj[[[]]])  // 80 80
+```
+<br/>
+
+```
+var b=1;
+function outer(){
+  var b=2
+     function inner(){
+        b++;
+        var b=3;
+        console.log(b)  // 3
+    }inner();
+}outer();
+
+```
+<br/>
+It's all about two queues in JS 
+1. MacroTask (Default One)
+2. Microtask (Callbacks/async calls)
+
+Note: setTimeout() lies in the macrotask
+
+```
+const promise1 = new Promise((resolve, reject) => {
+  console.log(1);
+  resolve('success')
+});
+promise1.then(() => {
+  console.log(3);
+});
+console.log(4);
+
+// 1 4 3
+```
+<br/>
+
+```
+const promise1 = new Promise((resolve, reject) => {
+  console.log(1);
+});
+promise1.then(() => {
+  console.log(3);
+});
+console.log(4);
+
+// 1 4
+```
+<br/>
+
+```
+const promise1 = new Promise((resolve, reject) => {
+    console.log(1)
+    resolve('resolve1')
+})
+const promise2 = promise1.then(res => {
+    console.log(res)
+})
+console.log('promise1:', promise1);
+console.log('promise2:', promise2);
+
+//  Try it out 😜
+```
+<br/>
+
+```
+const fn = () => (new Promise((resolve, reject) => {
+    console.log(1)
+    resolve('success')
+}));
+
+fn().then(res => {
+    console.log(res)
+});
+
+console.log(2)
+
+// 1 2 success
+```
+<br/>
+
+```
+console.log('start')
+setTimeout(() => {
+    console.log('setTimeout')
+})
+Promise.resolve().then(() => {
+    console.log('resolve')
+})
+console.log('end')
+
+// start end setTimeout resolve
+```
+<br/>
+
+```
+const promise = new Promise((resolve, reject) => {
+    console.log(1);
+    setTimeout(() => {
+        console.log("timerStart");
+        resolve("success");
+        console.log("timerEnd");
+    }, 0);
+  console.log(2);
+});
+
+promise.then((res) => {
+  console.log(res);
+});
+
+console.log(4);
+
+// 1 2 4 timerStart timerEnd success
+```
+<br/>
+
+```
+const timer1 = setTimeout(() => {
+    console.log('timer1');
+
+const timer3 = setTimeout(() => { 
+    console.log('timer3')
+  }, 0)
+}, 0)
+
+const timer2 = setTimeout(() => {
+  console.log('timer2')
+}, 0)
+
+console.log('start')
+
+// start timer1 timer2 timer3
