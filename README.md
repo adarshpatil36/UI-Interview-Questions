@@ -274,9 +274,8 @@ function outer(){
 ```
 <br/>
 It's all about two queues in JS <br/>
-* MacroTask (Default One) <br/>
-- New
-- Microtask (Callbacks/async calls) <br/>
+- MacroTask (Default One) <br/>
+- Microtask (Callbacks/async calls) <br/> <br/>
 
 Note: setTimeout() lies in the macrotask
 
